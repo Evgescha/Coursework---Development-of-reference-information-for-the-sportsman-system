@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XML_Sportsmen.HelperXML">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAACEAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HelperXML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XML_Sportsmen.Node">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAEAAAAgAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Node.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sportsman" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XML_Sportsmen.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XML_Sportsmen.Sportsman">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAAQAAEgEAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sportsman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XML_Sportsmen.Tree">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABAAABABAAgAgAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Tree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Node" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XML_Sportsmen.Form1">
+    <Position X="2.75" Y="1" Width="2.25" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="Column1" Hidden="true" />
+      <Field Name="Column2" Hidden="true" />
+      <Field Name="Column3" Hidden="true" />
+      <Field Name="Column4" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Field Name="helper" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="pathToXml" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBox3" Hidden="true" />
+      <Field Name="textBox4" Hidden="true" />
+      <Field Name="tree" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QCAIAAAAQCCAABAwgACAAQBCoMh4FAACkHQMAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tree" />
+      <Property Name="HelperXML" />
+      <Property Name="Sportsman" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
